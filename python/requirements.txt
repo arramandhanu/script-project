@@ -1,0 +1,57 @@
+# Python Security Toolkit - Requirements
+# Core dependencies for infrastructure automation
+
+# AWS SDK and cloud interactions
+boto3>=1.28.0
+botocore>=1.31.0
+
+# Kubernetes client
+kubernetes>=28.0.0
+
+# Docker SDK
+docker>=6.1.0
+
+# Configuration and serialization
+pyyaml>=6.0.1
+hcl2>=4.3.0
+
+# Networking and web
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Database connectors (optional, for secrets rotation)
+pg8000>=1.30.0
+pymysql>=1.1.0
+psycopg2-binary>=2.9.9
+
+# CLI and formatting
+click>=8.1.0
+rich>=13.5.0
+
+# Security scanning
+trivy-python>=0.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+ moto>=4.2.0
+
+# Type checking
+mypy>=1.5.0
+types-requests>=2.31.0
+types-PyYAML>=6.0.12
+
+# Code quality
+black>=23.7.0
+isort>=5.12.0
+flake8>=6.1.0
+pylint>=3.0.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.1.0
+
+# Development utilities
+python-dotenv>=1.0.0
+envoy-utils>=0.1.0
